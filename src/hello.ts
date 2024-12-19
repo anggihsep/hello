@@ -1,4 +1,6 @@
-export function sayHello(name: string) {
+export type Param = string
+
+export function sayHello(name: Param) {
     console.log(`hi, ${name}`)
 }
 
